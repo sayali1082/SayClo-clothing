@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Setup -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - SayClo</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Icons (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ===================================
+         Navigation
+    ==================================== -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="index.html">SayClo</a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="nav-menu" id="navMenu">
+                    <ul class="nav-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html" class="active">Shop</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="about.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Icons + Mobile Hamburger -->
+                <div class="nav-icons">
+                    <a href="#" class="icon-link"><i class="fas fa-search"></i></a>
+                    <a href="#" class="icon-link"><i class="fas fa-shopping-bag"></i></a>
+
+                    <!-- Mobile Menu Button -->
+                    <div class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ===================================
+         Page Header
+    ==================================== -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Collections</h1>
+            <p>Discover fashion for every age, every style, every occasion</p>
+        </div>
+    </section>
+
+
+    <!-- ===================================
+         Filters (Age + Category)
+    ==================================== -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-bar">
+
+                <!-- Age Filters -->
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="kids">Kids</button>
+                    <button class="filter-btn" data-filter="teens">Teens</button>
+                    <button class="filter-btn" data-filter="adults">Adults</button>
+                    <button class="filter-btn" data-filter="seniors">Seniors</button>
+                </div>
+
+                <!-- Category Filters -->
+                <div class="category-buttons">
+                    <button class="category-btn" data-category="all">All Categories</button>
+                    <button class="category-btn" data-category="casual">Casual</button>
+                    <button class="category-btn" data-category="formal">Formal</button>
+                    <button class="category-btn" data-category="sport">Sportswear</button>
+                    <button class="category-btn" data-category="accessories">Accessories</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===================================
+         Collection Template Section
+         (Kids / Teens / Adults / Seniors)
+    ==================================== -->
+
+    <!-- Kids Collection -->
+    <section class="collection-section" id="kids">
+        <div class="container">
+            <div class="collection-header">
+                <h2><i class="fas fa-child"></i> Kids Collection</h2>
+                <p>Playful, comfortable, and durable clothing for your little ones</p>
+            </div>
+
+            <div class="products-grid">
+
+                <!-- Product Card -->
+                <div class="product-card" data-age="kids" data-category="casual">
+                    <div class="product-image kids-casual-1"></div>
+                    <div class="product-badge">New</div>
+
+                    <div class="product-info">
+                        <h3>Kids Casual T-Shirt Set</h3>
+                        <p class="product-category">Casual Wear</p>
+                        <div class="product-price">$29.99</div>
+                        <button class="btn btn-sm">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Repeatable Card Structure -->
+                <!-- (Other cards remain same structure for consistency) -->
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Teens Collection -->
+    <section class="collection-section" id="teens">
+        <div class="container">
+            <div class="collection-header">
+                <h2><i class="fas fa-user-graduate"></i> Teens Collection</h2>
+                <p>Trendy, bold, and expressive styles for the young generation</p>
+            </div>
+
+            <div class="products-grid">
+                <!-- Product cards here -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Adults Collection -->
+    <section class="collection-section" id="adults">
+        <div class="container">
+            <div class="collection-header">
+                <h2><i class="fas fa-user-tie"></i> Adults Collection</h2>
+                <p>Sophisticated, versatile, and professional wear for modern adults</p>
+            </div>
+
+            <div class="products-grid">
+                <!-- Product cards here -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Seniors Collection -->
+    <section class="collection-section" id="seniors">
+        <div class="container">
+            <div class="collection-header">
+                <h2><i class="fas fa-user-friends"></i> Seniors Collection</h2>
+                <p>Classic, elegant, and comfortable clothing for timeless style</p>
+            </div>
+
+            <div class="products-grid">
+                <!-- Product cards here -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===================================
+         Call To Action
+    ==================================== -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Can't Find What You're Looking For?</h2>
+                <p>Contact our style experts for personalized recommendations</p>
+                <a href="about.html#contact" class="btn btn-primary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===================================
+         Footer
+    ==================================== -->
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <!-- Brand Info -->
+                <div class="footer-col">
+                    <h3>SayClo</h3>
+                    <p>
+                        Fashion that speaks to every generation.
+                        Quality clothing for kids, teens, adults, and seniors.
+                    </p>
+
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="about.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Categories -->
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="shop.html#kids">Kids Collection</a></li>
+                        <li><a href="shop.html#teens">Teen Fashion</a></li>
+                        <li><a href="shop.html#adults">Adult Styles</a></li>
+                        <li><a href="shop.html#seniors">Senior Elegance</a></li>
+                    </ul>
+                </div>
+
+                <!-- Customer Service -->
+                <div class="footer-col">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="footer-bottom">
+                <p>
+                    &copy; 2026 SayClo. All rights reserved.
+                    | Designed with <i class="fas fa-heart"></i> for every generation
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
