@@ -1,12 +1,8 @@
-// ===================================
-// SayClo - Interactive Frontend Script
-// ===================================
+
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    /* ===================================
-       Mobile Navigation
-    =================================== */
+   
 
     const hamburgerBtn = document.getElementById("hamburger");
     const navigationMenu = document.getElementById("navMenu");
@@ -29,9 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    /* ===================================
-       Smooth Scrolling
-    =================================== */
+  
 
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener("click", function (e) {
@@ -54,9 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
-    /* ===================================
-       Shop Page Filtering
-    =================================== */
+   
 
     const ageFilterButtons = document.querySelectorAll(".filter-btn");
     const categoryFilterButtons = document.querySelectorAll(".category-btn");
@@ -116,9 +108,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
-    /* ===================================
-       Add To Cart
-    =================================== */
 
     const addToCartBtns = document.querySelectorAll(".product-card .btn-sm");
     const shoppingBagIcon = document.querySelector(".nav-icons .fa-shopping-bag");
@@ -184,9 +173,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
-    /* ===================================
-       Newsletter Form
-    =================================== */
+
 
     const newsletterForm = document.querySelector(".newsletter-form");
 
@@ -205,9 +192,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    /* ===================================
-       Contact Form
-    =================================== */
 
     const contactForm = document.getElementById("contactForm");
     const successMessage = document.getElementById("formSuccess");
@@ -238,9 +222,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    /* ===================================
-       Scroll Animations
-    =================================== */
+
 
     const animatedItems = document.querySelectorAll(
         ".age-card, .collection-card, .feature-card, .product-card, .value-card"
@@ -263,9 +245,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
-    /* ===================================
-       Navbar Shadow on Scroll
-    =================================== */
+
 
     const navbar = document.querySelector(".navbar");
 
@@ -279,10 +259,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
-    /* ===================================
-       Search Placeholder
-    =================================== */
-
+   
     const searchIcon = document.querySelector(".nav-icons .fa-search");
 
     if (searchIcon) {
@@ -296,9 +273,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    /* ===================================
-       Lazy Loading Images
-    =================================== */
 
     const lazyImages = document.querySelectorAll("[data-src]");
 
@@ -316,18 +290,13 @@ document.addEventListener("DOMContentLoaded", () => {
     lazyImages.forEach(img => imageObserver.observe(img));
 
 
-    /* ===================================
-       Console Greeting
-    =================================== */
 
     console.log("%c Welcome to SayClo! ", "background:#d4a574;color:white;font-size:20px;font-weight:bold;padding:10px;");
     console.log("%c Fashion for Every Generation ", "color:#2d2d2d;font-size:14px;");
 });
 
 
-/* ===================================
-   Page Visibility Title Change
-=================================== */
+
 
 document.addEventListener("visibilitychange", () => {
 
@@ -346,9 +315,6 @@ document.addEventListener("visibilitychange", () => {
 });
 
 
-/* ===================================
-   Back To Top Button
-=================================== */
 
 function createBackToTopButton() {
 
