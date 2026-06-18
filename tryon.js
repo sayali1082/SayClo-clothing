@@ -1,6 +1,4 @@
-/* ==========================================
-   SayClo – Virtual Try-On (Pose Detection)
-   ========================================== */
+/* pose detection*/
 
 // Grab required DOM elements
 const cameraVideo = document.getElementById("camera");
@@ -11,9 +9,7 @@ let poseDetector = null;
 let selectedOverlayColor = "rgba(0,150,255,0.5)";
 
 
-/* ==========================================
-   Start Camera + Try-On
-   ========================================== */
+/*  Start Camera + Try-On */
 
 const startButton = document.getElementById("startTryOn");
 
