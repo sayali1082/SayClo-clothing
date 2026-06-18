@@ -1,8 +1,4 @@
-/* ===================================
-   SayClo - Modern Fashion Website Styles
-   =================================== */
 
-/* ===== CSS Variables ===== */
 :root {
     --primary-color: #2d2d2d;
     --secondary-color: #d4a574;
@@ -21,7 +17,6 @@
     --font-body: 'Poppins', sans-serif;
 }
 
-/* ===== Global Styles ===== */
 * {
     margin: 0;
     padding: 0;
