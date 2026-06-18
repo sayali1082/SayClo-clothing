@@ -141,7 +141,6 @@ img {
     transition: var(--transition);
 }
 
-/* ===== Hero Section ===== */
 .hero {
     height: 90vh;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
